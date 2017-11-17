@@ -1,0 +1,7 @@
+#!/bin/bash
+# Builds and opens my Elm project
+
+# compile my script
+elm-make Main.elm --debug &&
+# open it
+chromium index.html
